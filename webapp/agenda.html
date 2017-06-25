@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jQuery Mobile stylesheets -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <!-- jQuery Mobile library -->
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <!-- Eigen Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Javascript File-->
+    <script src="script.js"></script>
+
+</head>
+<body>
+<div data-role="page" data-theme="b">
+    <div data-role="header">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="index.html" data-icon="home">Home</a></li>
+                <li><a href="shop.html" data-icon="shop">Shop</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="content" class="content">
+        <div data-role="controlgroup" data-type="horizontal">
+
+            <a href="#agendapage" data-role="button"
+               data-icon="check" id="sel"
+               data-iconpos="notext">Select</a>
+
+            <a href="#agendaitem" data-role="button"
+               data-icon="plus" id="add"
+               data-iconpos="notext">Add</a>
+
+            <a href="#agendapage" data-role="button"
+               data-icon="delete" id="del"
+               data-iconpos="notext">Delete</a>
+
+            <a href="#agendapage" data-role="button"
+               data-icon="refresh" id="sav"
+               data-iconpos="notext">Save</a>
+        </div>
+        <div id="agendalijst"></div>
+    </div>
+
+
+    <div class="footer" data-role="footer" data-theme="b">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="agenda.html" data-icon="calendar">Agenda</a></li>
+                <li><a href="location.html" data-icon="location">Location</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jQuery Mobile stylesheets -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <!-- jQuery Mobile library -->
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <!-- Eigen Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<div data-role="page" data-theme="b">
+    <div data-role="header">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="index.html" data-icon="home">Home</a></li>
+                <li><a href="shop.html" data-icon="shop">shop</a></li>
+            </ul>
+        </div>
+        <h1>Bestellen</h1>
+    </div>
+
+    <div data-role="content" class="ui-content">
+        <form method="post" action="#">
+            <label for="voorname">Voornaam:</label>
+            <input type="text" name="fname" id="voorname" placeholder="vul je voornaam in" data-clear-btn="true">
+
+            <label for="lastname">Achternaam</label>
+            <input type="text" name="lname" id="lastname" placeholder="vul je achternaam in" data-clear-btn="true">
+
+            <label for="adres">Adres</label>
+            <input type="text" name="adres" id="adres" placeholder="vul je adres in" data-clear-btn="true">
+
+            <label for="postcode">Postcode</label>
+            <input type="text" name="postcode" id="postcode" placeholder="vul je postcode in" data-clear-btn="true">
+
+            <fieldset class="ui-field-contain">
+                <label for="item">Selecteer Item</label>
+                <select name="item" id="item" multiple data-native-menu="false">
+                    <option value="Teemo hoedje">Teemo hoedje</option>
+                    <option value="tshirt">T-Shirt</option>
+                    <option value="beeldje">Beeldje</option>
+                    <option value="beker">beker</option>
+                </select>
+            </fieldset>
+            <a href="besteld.html" class="ui-btn">Bestellen</a>
+        </form>
+        <div class="footer" data-role="footer" data-theme="a">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="agenda.html" data-icon="calendar">Agenda</a></li>
+                    <li><a href="location.html" data-icon="location">Location</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
