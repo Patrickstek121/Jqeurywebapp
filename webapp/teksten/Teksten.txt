@@ -1,0 +1,15 @@
+The game:
+
+Begin met spelen. dit spel bestaat uit een paar heroes waar je mee kan spelen.
+Het doel van het spel is om hoger in rank te komen.
+Je hebt verschillende ranks en hoe beter je bent hoe hoger je komt.
+
+Online mode
+Het spel is gebasseerd op alleen het online spelen.
+Je kan wel single spelen maar dan moet je met bots spelen.
+Dus eigenlijk is het hele spel gebasseerd op het online spelen.
+
+Gameplay
+De gameplay is heel simpel je moet je hero besturen en dan vechten tegen online mensen.
+Wie als eerste de nexus heeft gesloopt wint de game en kan dan hoger komen in rank.
+
